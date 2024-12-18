@@ -17,8 +17,8 @@ def test_mul():
 
 def test_div():
     assert div(2,4)==(0.5)
-    assert div(560,34)==(16.47)
-    assert div(123,335)==(0.367)
+    assert div(560,34)==(16.4705882353)
+    assert div(123,335)==(0.3671641791)
 
 def test_power():
     assert power(2,4)==(16)
@@ -26,6 +26,6 @@ def test_power():
     assert power(10,4)==(10000)
 
 def test_sqrt():
-    assert sqrt(2)==(1.414)
-    assert sqrt(56)==(7.483)
-    assert sqrt(234)==(15.297)
+    assert sqrt(2)==(1.4142135623730951)
+    assert sqrt(56)==(7.48331477355)
+    assert sqrt(234)==(15.297058540778355)
